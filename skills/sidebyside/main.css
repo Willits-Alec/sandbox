@@ -1,7 +1,45 @@
 .picture-1 {
-    width: 25%;
+    /* adjust the size of the image by using width */
+    width: 50%;
+    
 }
 
 .picture-2 {
-    width: 25%;
+    /* remove the postion relitive to see how the postion changes */
+    /* by using the direction keywords pictures are moved in relation to that word */
+    /* example: left 650px means that the obj is moved 650px starting from the left */
+    width: 50%;
+    position: relative;
+    left: 100px;
+    bottom: 100px;
+}
+
+.picture-group {
+    /* this is a div with both of the pictures inside of it */
+    width: 100%;
+    height: 650px;
+    position: relative;
+    left: 150px;
+    right: 190px;
+    background-color: green;
+
+}
+
+div {
+    width: 100%;
+    height: 5000px;
+    background-color:  steelblue;
+}
+
+div p {
+    width: 100px;
+    height: 100px;
+    background-color:  slategray;
+    position: sticky;
+    top: 300px;
+}
+
+h1 {
+    position: relative;
+
 }
