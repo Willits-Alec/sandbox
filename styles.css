@@ -19,8 +19,8 @@ header {
 }
 
 body img {
-  /* height: 300px;
-  width: 450px; */
+  height: 300px;
+  width: 450px;
   display: flex;
   flex-wrap: wrap;
   padding: 0 4px;
