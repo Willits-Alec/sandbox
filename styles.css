@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Chakra+Petch|Luckiest+Guy|Nunito|Slabo+27px');
+
+#text {
+    color: gold;
+    padding: 1em;
+    margin-top: -130px;
+  }
+
+  h1 {
+    color: darkblue;
+  }
+
+  nav {
+      list-style-type: none;
+  }
