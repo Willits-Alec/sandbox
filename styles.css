@@ -5,17 +5,18 @@ body {
   line-height: 1.5;
 }
 
-header, nav, main, footer {
-  list-style-type: none;
+/* header, nav, main, footer {
   margin: 1.25rem auto;
   max-width: 750px;
   
-}
+} */
 
 header {
   background-color: steelblue;
   color: white;
   text-align: center;
+  width: 100%;
+  border-radius: 15px 15px 5px 5px;
 }
 
 body img {
@@ -26,16 +27,6 @@ body img {
   padding: 0 4px;
 }
 
-.section-1 {
-  width: 25%;
-  position: relative;
-  left: 250px;
-}
-
-.section-2 {
-  width: 25%;
-  position: relative;
-  left: 600px;
-  bottom: 180px;
-
+nav ul li {
+  list-style-type: none;
 }
