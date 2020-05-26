@@ -1,6 +1,9 @@
 .picture-1 {
     /* adjust the size of the image by using width */
     width: 50%;
+    /* position: absolute; */
+    /* background-color: steelblue; */
+    /* padding: 5px; */
     
 }
 
@@ -8,18 +11,20 @@
     /* remove the postion relitive to see how the postion changes */
     /* by using the direction keywords pictures are moved in relation to that word */
     /* example: left 650px means that the obj is moved 650px starting from the left */
-    width: 50%;
-    position: relative;
-    left: 100px;
-    bottom: 100px;
+    width: 450px;
+    height: 350px;
+    /* position: relative; */
+    position: fixed;
+    /* left: 100px;
+    bottom: 100px; */
 }
 
 .picture-group {
     /* this is a div with both of the pictures inside of it */
     width: 100%;
     height: 650px;
-    position: relative;
-    left: 150px;
+    /* position: relative; */
+    left: 25px;
     right: 190px;
     background-color: green;
 
@@ -32,11 +37,11 @@ div {
 }
 
 div p {
-    width: 100px;
+    width: 100px; /* width and height change the size of the gray box */
     height: 100px;
     background-color:  slategray;
-    position: sticky;
-    top: 300px;
+    position: sticky; /* moves as you move the page */
+    top: 300px; /* moves down from the top by 300px */ 
 }
 
 h1 {
