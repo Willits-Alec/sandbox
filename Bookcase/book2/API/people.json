@@ -1,0 +1,17 @@
+{
+    "date": "Thursday, 18 Feb 2021 10:09:35 GMT",
+    "people": [
+        {
+            "name": "Alec",
+            "Occupation": "Student/Web Developer",
+            "age": 27,
+            "country": "USA"
+        },
+        {
+            "name": "Mike",
+            "occuption": "Student",
+            "age": 22,
+            "country": "USA"
+        }
+    ]
+}
